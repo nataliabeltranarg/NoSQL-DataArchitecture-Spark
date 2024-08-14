@@ -46,6 +46,7 @@ Stores raw data ingested into the data lake in a structured or semi-structured f
 - *Implementation:* This would be implemented in a Distributed File System in a real-world scenarion but for the project goal it will be done in my local file system.
 
 **Formatted Zone**
+
 Stores data in a standardized format according to a canonical data model. Data is potentially enriched and in a consumption-ready form.
 -*Implementation:* Implemented using Parquet files for efficient storage and schema enforcement on the local file system. 
 
