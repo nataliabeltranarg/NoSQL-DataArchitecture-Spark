@@ -41,7 +41,8 @@ The following guide will aid in setting up PySpark on Mac (for help with Windows
 
 ## Data Management Backbone 
 **Landing Zone**
-- Stores raw data ingested into the data lake in a structured or semi-structured format. This includes data directly extracted from source systems with minimal transformation.
+
+Stores raw data ingested into the data lake in a structured or semi-structured format. This includes data directly extracted from source systems with minimal transformation.
 - *Implementation:* This would be implemented in a Distributed File System in a real-world scenarion but for the project goal it will be done in my local file system.
 
 **Formatted Zone**
@@ -49,13 +50,15 @@ Stores data in a standardized format according to a canonical data model. Data i
 -*Implementation:* Implemented using Parquet files for efficient storage and schema enforcement on the local file system. 
 
 **Exploitation Zone**
+
 Contains processed and refined data optimized for analysis, such as features and KPIs.
--*Implementation:** Implemented using Parquet and CSV files for efficient storage on the local file system. 
+- *Implementation:** Implemented using Parquet and CSV files for efficient storage on the local file system. 
 
 ## Data Analysis Backbone 
 **Descriptive Analysis and Dashboarding** 
--*Descriptive Analysis:* Performed exploratory data analysis (EDA) on the data in the Exploitation Zone to summarize and understand the data. 
--*Dashboarding:* Created interactive dashboards using tools like Tableau, Power BI, or Jupyter Notebooks with matplotlib/seaborn. 
+
+*Descriptive Analysis:* Performed exploratory data analysis (EDA) on the data in the Exploitation Zone to summarize and understand the data. 
+-* Dashboarding:* Created interactive dashboards using tools like Tableau, Power BI, or Jupyter Notebooks with matplotlib/seaborn. 
 
 ## How to navigate the repository
 ```bash 
