@@ -66,7 +66,7 @@ Contains processed and refined data optimized for analysis, such as features and
 ```bash 
 ├── Documents
 │   ├── BigData_Spark_notebook.ipynb
-│   ├── BigData_Spark_report.pdf
+│   └── BigData_Spark_report.pdf
 ├── LandingZone
 │   ├── cultural-sites
 │   ├── income
