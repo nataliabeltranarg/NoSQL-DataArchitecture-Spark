@@ -23,21 +23,13 @@ The following guide will aid in setting up PySpark on Mac (for help with Windows
    ```
    source ~/.bashrc
    ```
-5. Installing Apache Spark
-   ```
-   brew install apache-spark
-   ```
-   for path info
-   ```
-   brew info apache-spark
-   ```
+5. Installing Apache Spark ``` brew install apache-spark ```
+   -> for path info ``` brew info apache-spark ```
 6. Setting Environment Variables (replace ***version*** with the installed Spark version) 
    ```
    export SPARK_HOME=/usr/local/Cella/apache-spark/<version>/libexec
    export PYSPARK_PYTHON=python3
    export PYSPARK_DRIVER_PYTHON=python3
-   ```
-7. ```
    source ~/.bashrc
    ```
 8. Install PySpark Python Package
