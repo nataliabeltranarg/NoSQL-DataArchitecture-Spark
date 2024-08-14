@@ -1,1 +1,1 @@
-# NoSQL_Spark
+# Big Data Management: Spark 
