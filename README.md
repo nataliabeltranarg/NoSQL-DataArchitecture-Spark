@@ -10,7 +10,7 @@
 
 ## How to navigate the repository
 ```bash 
-├── 1. Documents
+├── Documents
 │   ├── BigData_Spark_notebook.ipynb
 │   ├── BigData_Spark_report.pdf
 ├── LandingZone
