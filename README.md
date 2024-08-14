@@ -59,7 +59,7 @@ Contains processed and refined data optimized for analysis, such as features and
 **Descriptive Analysis and Dashboarding** 
 
 *Descriptive Analysis:* Performed exploratory data analysis (EDA) on the data in the Exploitation Zone to summarize and understand the data. 
--* Dashboarding:* Created interactive dashboards using tools like Tableau, Power BI, or Jupyter Notebooks with matplotlib/seaborn. 
+- *Dashboarding:* Created interactive dashboards using tools like Tableau, Power BI, or Jupyter Notebooks with matplotlib/seaborn. 
 
 ## How to navigate the repository
 ```bash 
