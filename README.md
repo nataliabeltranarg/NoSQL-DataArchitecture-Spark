@@ -7,7 +7,7 @@ This project focuses on creating a data-driven architecture using Apache Spark. 
 ## Environment SetUp 
 The following guide will aid in setting up PySpark on Mac (for help with Windows setup, please head to: https://www.machinelearningplus.com/pyspark/install-pyspark-on-windows/). 
 
-**PySpark Mac** 
+**Spark Mac** 
 1. Open terminal
 2. Execute following command (make sure to have Homebrew installed)
    ```brew install openjdk``` 
@@ -27,10 +27,10 @@ The following guide will aid in setting up PySpark on Mac (for help with Windows
    ```
    brew install apache-spark
    ```
-for path info 
-  ```
-  brew info apache-spark
-  ```
+   for path info
+   ```
+   brew info apache-spark
+   ```
 6. Setting Environment Variables (replace ***version*** with the installed Spark version) 
    ```
    export SPARK_HOME=/usr/local/Cella/apache-spark/<version>/libexec
